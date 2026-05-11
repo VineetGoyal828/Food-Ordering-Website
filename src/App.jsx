@@ -20,7 +20,7 @@ const App = () => {
       <main className="flex-1 w-full">
         <section id="home" className="w-full">
           <Banner />
-        </section>
+        </section> 
 
         <section id="services" className="w-full">
           <Wws />
