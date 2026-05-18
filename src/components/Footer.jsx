@@ -94,11 +94,11 @@ const Footer = () => {
             </div>
           ))}
 
-          {/* Contact Section */}
+          {/* Contact Section */} 
           <div className="text-center sm:text-left space-y-3 sm:space-y-4">
             <h3 className="text-2xl sm:text-3xl font-semibold text-gray-800 font-serif tracking-wide inline-block px-3 sm:px-4 py-1 sm:py-2 border-2 border-gray-300 rounded-full bg-transparent">
               Contact Us
-            </h3>
+            </h3> 
             <div className="space-y-2 sm:space-y-3">
               <div className="flex justify-center sm:justify-start items-center space-x-2">
                 <FaMapMarkerAlt className="text-orange-600 shrink-0" size={18} />
