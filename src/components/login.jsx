@@ -46,14 +46,14 @@ const Login = () => {
               name="password"
               placeholder="Password"
               value={form.password}
-              onChange={handleChange}
+              onChange={handleChange} 
               className="w-full pl-10 pr-10 py-3 rounded-full border border-gray-300 focus:outline-none focus:ring-2 focus:ring-orange-300"
               required
             />
             <button
               type="button"
               onClick={() => setShowPassword(!showPassword)}
-              className="absolute right-3 top-1/2 transform -translate-y-1/2 text-gray-500"
+              className="absolute right-3 top-1/2 transform -translate-y-1/2 text-gray-500 cursor-pointer"
             >
               {showPassword ? <FaEyeSlash /> : <FaEye />}
             </button>
@@ -61,7 +61,7 @@ const Login = () => {
 
           <button
             type="submit"
-            className="w-full bg-orange-600 text-white font-semibold py-3 rounded-full hover:bg-orange-700 transition-all"
+            className="w-full bg-orange-600 text-white font-semibold py-3 rounded-full hover:bg-orange-700 transition-all cursor-pointer"
           >
             Login
           </button>

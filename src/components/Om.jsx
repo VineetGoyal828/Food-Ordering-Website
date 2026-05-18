@@ -64,7 +64,7 @@ const Menu = () => {
   const [selectedCategory, setSelectedCategory] = useState("All");
   const { addToCart } = useCart();
 
-  // Toast state
+  // Toast state 
   const [showToast, setShowToast] = useState(false);
 
   // Trigger toast
@@ -80,30 +80,30 @@ const Menu = () => {
 
   return (
     <div id="menu" className="bg-gradient-to-br from-orange-50 to-yellow-100 py-12 px-4 min-h-screen relative">
-      <div className="max-w-7xl mx-auto">
+      <div className="max-w-7xl mx-auto"> 
 
         {/* Heading */}
         <div className="text-center mb-6">
           <h2 className="text-4xl font-pacifico text-amber-600">Our Menu</h2>
           <p className="text-sm text-amber-700 italic">Deliciously Categorized</p>
-        </div>
+        </div> 
 
-        {/* Category Tabs */}
-        <div className="flex flex-wrap justify-center gap-3 mb-8">
+        {/* Category Tabs */} 
+        <div className="flex flex-wrap justify-center gap-3 mb-8"> 
           {categories.map((cat) => (
-            <button
+            <button 
               key={cat}
               onClick={() => setSelectedCategory(cat)}
-              className={`px-4 py-2 rounded-full font-semibold transition shadow-md
-              ${selectedCategory === cat ? "bg-amber-600 text-white" : "bg-white text-amber-600 border border-amber-300"}`}
+              className={`px-4 py-2 rounded-full font-semibold transition shadow-md cursor-pointer
+              ${selectedCategory === cat ? "bg-amber-600 text-white" : "bg-white text-amber-600 border border-amber-300"}`} 
             >
               {cat}
             </button> 
           ))}
         </div>
 
-        {/* Menu Items Grid */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 overflow-y-auto max-h-[80vh] px-1">
+        {/* Menu Items Grid */} 
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 overflow-y-auto max-h-[80vh] px-1"> 
           {filteredItems.map((item, index) => (
             <div
               key={index}
@@ -123,7 +123,7 @@ const Menu = () => {
                   triggerToast();
                   addToCart(item);
                 }}
-                className="mt-4 bg-orange-500 hover:bg-orange-600 text-white px-4 py-1 rounded-full text-sm"
+                className="mt-4 bg-orange-500 hover:bg-orange-600 text-white px-4 py-1 rounded-full text-sm cursor-pointer"
               >
                 Add to Cart <FaShoppingCart className="inline ml-1" />
               </button>

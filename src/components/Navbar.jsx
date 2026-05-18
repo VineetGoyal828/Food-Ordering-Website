@@ -21,7 +21,7 @@ const Navbar = () => {
     { icon: <FaUtensils />, text: "Services", target: "services" },
     { icon: <FaListAlt />, text: "Menu", target: "menu" },
     { icon: <FaQuoteLeft />, text: "Reviews", target: "reviews" },
-  ];
+  ]; 
 
   const handleSearch = () => {
     const target = searchText.toLowerCase().replace(/\s+/g, "");
@@ -36,8 +36,8 @@ const Navbar = () => {
     <nav className="fixed top-3 left-1/2 transform -translate-x-1/2 bg-gradient-to-r from-yellow-400 to-orange-500 shadow-lg rounded-full 
       px-3 sm:px-4 md:px-4 lg:px-8 py-2 md:py-3 w-[95%] sm:w-[97%] md:w-[90%] max-w-7xl flex items-center justify-between 
       backdrop-blur-md border border-white/20 z-50"
-    >
-      {/* Logo Section */}
+    > 
+      {/* Logo Section */} 
       <div className="flex items-center space-x-2">
         <div className="p-2 bg-white/20 rounded-full backdrop-blur-sm">
           <FaUtensils className="text-xl text-white animate-pulse" />

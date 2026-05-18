@@ -128,7 +128,7 @@ const Footer = () => {
             <h3 className="text-2xl sm:text-3xl md:text-2xl lg:text-4xl font-bold mb-3 sm:mb-4 font-serif tracking-wide drop-shadow-md inline-block px-3 sm:px-4 md:px-8 lg:px-3 py-1 sm:py-2 md:py-3 lg:py-1 bg-transparent">
               Get 15% Off On Your First Order!
             </h3>
-            <div className="flex flex-col md:flex-row justify-center gap-3 sm:gap-4 md:gap-6 lg:gap-4">
+            <div className="flex flex-col md:flex-row justify-center gap-3 sm:gap-4 md:gap-6 lg:gap-4"> 
               <input
                 type="email"
                 value={email}
@@ -138,7 +138,7 @@ const Footer = () => {
               />
               <button
                 onClick={handleSubscribe}
-                className="bg-orange-600 text-white px-6 sm:px-10 md:px-8 lg:px-6 py-3 sm:py-4 md:py-3 lg:py-2 rounded-full font-semibold hover:bg-orange-700 transition-transform transform hover:scale-105 text-base sm:text-lg shadow-md"
+                className="bg-orange-600 text-white px-6 sm:px-10 md:px-8 lg:px-6 py-3 sm:py-4 md:py-3 lg:py-2 rounded-full font-semibold hover:bg-orange-700 transition-transform transform hover:scale-105 text-base sm:text-lg shadow-md cursor-pointer" 
               >
                 Subscribe Now
               </button>
@@ -152,7 +152,7 @@ const Footer = () => {
           <div className="fixed top-6 left-1/2 transform -translate-x-1/2 bg-green-500 text-white px-6 py-2 rounded-full shadow-lg z-50 animate-bounce">
             🎉 Subscribed successfully!
           </div>
-        )}
+        )} 
 
         <div className="border-t border-orange-200 pt-6 sm:pt-8 text-center space-y-3 sm:space-y-4">
           <p className="text-gray-600 font-comfortaa text-sm sm:text-base md:text-xl">
