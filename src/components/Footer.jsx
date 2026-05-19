@@ -110,7 +110,7 @@ const Footer = () => {
                 <FaPhoneAlt className="text-orange-600 shrink-0" size={18} />
                 <span className="text-gray-600 font-comfortaa text-base sm:text-lg md:text-xl">
                   +91 234 567 890
-                </span>
+                </span> 
               </div>
               <div className="flex justify-center sm:justify-start items-center space-x-2">
                 <FaRegEnvelope className="text-orange-600 shrink-0" size={18} />

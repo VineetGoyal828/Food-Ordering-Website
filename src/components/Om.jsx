@@ -123,7 +123,7 @@ const Menu = () => {
                   triggerToast();
                   addToCart(item);
                 }}
-                className="mt-4 bg-orange-500 hover:bg-orange-600 text-white px-4 py-1 rounded-full text-sm cursor-pointer"
+                className="mt-4 bg-orange-500 hover:bg-orange-600 text-white px-4 py-1 rounded-full text-sm cursor-pointer" 
               >
                 Add to Cart <FaShoppingCart className="inline ml-1" />
               </button>
